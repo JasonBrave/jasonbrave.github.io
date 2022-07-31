@@ -14,3 +14,14 @@ permalink: /projects/
 - User space: Dynamic linking, Graphical desktop envoironment, C and C++ standard library, C++ GUI widget toolkit
 
 ## Group Projects:
+
+### RobotLog - [Link](https://github.com/FRC6854/RobotLog)
+![](/images/projects/RobotLog.png)
+- FRC(FIRST Robotics Competition) Robot path planning and replay tool developed for [FRC Team 6854 - Viking Robotics](https://github.com/FRC6854)
+- Implemented with C++ using GTKmm and Cairo library
+
+Features:
+- Read robot motor encoder telemetry CSV file and replay robot trajectory
+- User can sketch planned robot path on the user interface and export coordinates to CSV file
+- User can deploy path directly to RobotRIO, by RobotLog invoking `sftp` command
+- Runs on GNU/Linux and Windows(with MSYS2).
