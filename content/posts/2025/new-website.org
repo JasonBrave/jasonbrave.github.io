@@ -1,5 +1,0 @@
-#+title: New Website
-#+author: Jason Xu
-#+date: <2025-01-18 Sat>
-
-* I have a new website
