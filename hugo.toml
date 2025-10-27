@@ -9,14 +9,20 @@ theme = 'paper'
 
 [menu]
 
-  [[menu.main]]
+[[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
     weight = 10
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
+[[menu.main]]
+    identifier = "memes"
+    name = "Memes"
+    url = "/memes/"
     weight = 10
