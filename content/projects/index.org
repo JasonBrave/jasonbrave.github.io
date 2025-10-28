@@ -1,0 +1,47 @@
+#+title: Projects
+
+* PanicOS
+
+#+CAPTION: PanicOS desktop screenshot
+#+ATTR_HTML: :width 600px
+[[./PanicOS.png]]
+
+[[https://github.com/JasonBrave/PanicOS][GitHub Link]]
+
+- x86 operating system
+- Constructed with C, C++ and x86 Assembly
+- Supports UEFI booting, SMP, loadable kernel modules, hardware abstraction layer and FAT32 filesystem read/write
+- Includes device driver for PCIe and UHCI USB Controller, IDE/ATA, SATA/AHCI and virtio GPU and block devices
+- Implemented user space support, dynamic linking, a minimal C and C++ standard library and a C++ GUI widget toolkit
+
+* RLCS Towerside Power Board - Waterloo Rocketry
+
+#+CAPTION: RLCS Towerside Power Board
+#+ATTR_HTML: :width 200px
+[[./rlcsv3-towerside-power-board.png]]
+
+Designed with KiCAD, the RLCS Towerside Power Board is an Arduino shield that provides power to the Arduino and RLCS(Remote Launch Control System) Towerside, it also extend some Arduino IO with connectors, such as a seven-segment display, UART terminal and a JST connector for I2C interface.
+
+* RLCS Tank Heating Relay Board - Waterloo Rocketry
+
+#+CAPTION: RLCS Tank Heating Relay Board
+#+ATTR_HTML: :width 200px
+[[./rlcsv3-tank-heating-relay-board.png]]
+
+The board uses a relay to control a 24V 25A circuit for rocket tank , the board is connected to rest of RLCS system with I2C, The board have a PIC18 MCU for communicate on I2C, and sense voltages and currents and report them via I2C register map.
+
+* RLCS Clientside - Waterloo Rocketry
+
+#+CAPTION: RLCS Clientside
+#+ATTR_HTML: :width 300px
+[[./rlcsv3-clientside-front.png]]
+
+#+CAPTION: Behind the scene
+#+ATTR_HTML: :width 300px
+[[./rlcsv3-clientside-back.png]]
+
+#+CAPTION: Clientside board (Arduino shield)
+#+ATTR_HTML: :width 300px
+[[./rlcsv3-clientside-board.png]]
+
+Designed with KiCAD, the RLCS Clientside board connects to the various components in the RLCS Clientside including missile switches, potentiometer, LEDs and LCD character display module. The board also provide power to the Arduino from a LiPo battery through a buck converter.
