@@ -5,6 +5,7 @@ theme = 'paper'
 
 [params]
   github = 'JasonBrave'
+  linkedin = 'jason-j-xu'
   rss = true
 
 [menu]
